@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+::selection {
+  background-color: #ff0000;
+  color: #ffffff;
+}
+
+body {
+  color: #ffffff;
+  background-color: #000000;
+  overflow-x: hidden;
+}
+
+img {
+  user-select: none;
+}
+
+.glow_shadow:hover {
+  box-shadow: 0 0 20px #ff0000, 0 0 30px #ff0000;
+}
+
+.gym_indoor {
+  background-image: url("/gym_indoor.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
