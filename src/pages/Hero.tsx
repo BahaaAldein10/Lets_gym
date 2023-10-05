@@ -8,7 +8,7 @@ import { motion } from "framer-motion";
 
 function Hero() {
   return (
-    <section className="relative w-full h-screen">
+    <section className="relative w-full">
       <div className="container m-auto p-4 sm:w-[80%] w-[90%]">
         <div className="grid sm:grid-cols-2 w-full">
           {/* Title */}
